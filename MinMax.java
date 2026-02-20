@@ -40,7 +40,6 @@ public class MinMax {
         int[] result1 = findMinMax(cmdArray);
         System.out.println("Command-line Min & Max: " + result1[0] + ", " + result1[1]);
 
-        // ii. From Scanner
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of elements: ");
         int n = scanner.nextInt();
@@ -53,4 +52,5 @@ public class MinMax {
         int[] result2 = findMinMax(scanArray);
         System.out.println("Scanner Min & Max: " + result2[0] + ", " + result2[1]);
     }
+
 }
